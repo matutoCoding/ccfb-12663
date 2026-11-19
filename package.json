@@ -1,0 +1,16 @@
+{
+  "name": "moldfill-sim",
+  "version": "0.1.0",
+  "private": true,
+  "description": "浏览器端注塑充填仿真(Hele-Shaw / WebGL2 / IndexedDB)",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "tsc -p tsconfig.json --watch",
+    "serve": "node serve.mjs",
+    "test": "npm run build && node test/solver.test.mjs"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
